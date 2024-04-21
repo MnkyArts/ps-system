@@ -44,6 +44,11 @@ subprojects {
     mavenCentral()
 
     maven {
+      name = 'spigotmc'
+      url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+    }
+    
+    maven {
       name = 'paper'
       url = 'https://repo.papermc.io/repository/maven-public/'
     }
