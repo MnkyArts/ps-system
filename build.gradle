@@ -49,6 +49,11 @@ subprojects {
     }
 
     maven {
+      name = 'snaps'
+      url = 'https://s01.oss.sonatype.org/content/repositories/snapshots'
+    }
+
+    maven {
       name = 'cloudnet-snapshots'
       url = 'https://repo.cloudnetservice.eu/repository/snapshots/'
     }
