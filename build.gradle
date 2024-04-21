@@ -67,6 +67,11 @@ subprojects {
       name = 'jitpack'
       url = 'https://jitpack.io'
     }
+
+    maven {
+      name = 'minebench'
+      url = 'https://repo.minebench.de/'
+    }
   }
 
   dependencies {
