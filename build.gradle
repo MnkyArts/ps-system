@@ -54,6 +54,11 @@ subprojects {
     }
 
     maven {
+      name = 'paperSnaps'
+      url = 'https://repo.papermc.io/repository/maven-snapshots/'
+    }
+
+    maven {
       name = 'snaps'
       url = 'https://s01.oss.sonatype.org/content/repositories/snapshots'
     }
