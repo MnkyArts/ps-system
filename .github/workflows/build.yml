@@ -1,8 +1,8 @@
 name: CI
 
 on:
-  - push
-  - pull_request
+  workflow_dispatch:
+  push:
 
 concurrency:
   group: ci-${{ github.event.pull_request.number || github.job }}
